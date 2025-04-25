@@ -17,6 +17,7 @@ import { Lightbulb, MousePointer, BarChart, BrainCircuit, PersonStanding } from 
 
 export default function OrganizationPage() {
   return (
+
     <main className="flex flex-col items-center min-h-screen">
       {/* Simple Header Placeholder */}
       <header className="w-full max-w-6xl mx-auto py-4 px-4 md:px-6 flex justify-between items-center">
