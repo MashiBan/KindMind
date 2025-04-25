@@ -24,7 +24,7 @@ export default function OrganizationPage() {
         <div className="text-2xl font-bold">Kind❤️Mind</div>
         <Button asChild size="lg">
           {/* Ensure MAIN_APP_URL is defined, maybe in .env.local */}
-          <Link href={process.env.NEXT_PUBLIC_MAIN_APP_URL || "#"}>Access Platform</Link>
+          <Link href="https://kindmind-app.vercel.app">Access Platform</Link>
         </Button>
       </header>
 
@@ -65,7 +65,7 @@ export default function OrganizationPage() {
         />
 
         <Button asChild size="lg" className="text-lg px-8 py-6">
-          <Link href={process.env.NEXT_PUBLIC_MAIN_APP_URL || "#"}>
+          <Link href="https://kindmind-app.vercel.app/">
             Start Learning Now
           </Link>
         </Button>
@@ -265,11 +265,11 @@ export default function OrganizationPage() {
       }
     >
       <img
-        src="/linear.webp"
+        src="/hero.png"
         alt="hero"
         height={420}
         width={1000}
-        className="mx-auto rounded-2xl mt-2 object-cover h-[50%] object-left-top" 
+        className="mx-auto rounded-2xl mt-2 object-cover h-[90%] object-left-top" 
       />
     </ContainerScroll>
     <p className="text-black-200 pb-20 text-center z-20 text-2xl max-w-xl mx-auto"> {/* Reduced margin top */}
