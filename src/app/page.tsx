@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/resizable"
 // import { Boxes } from "../components/ui/background-boxes";
 import { cn } from "@/lib/utils";
-import { Lightbulb, MousePointer, BarChart, BrainCircuit, PersonStanding } from "lucide-react"; // Example icons
+import { Lightbulb, BarChart, BrainCircuit,} from "lucide-react"; // Example icons
 
 export default function OrganizationPage() {
   return (
